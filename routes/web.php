@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/google-aiy', [
+    'uses' => 'GoogleAiyController@main_page'
+]);
