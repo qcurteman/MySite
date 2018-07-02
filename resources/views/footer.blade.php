@@ -12,8 +12,8 @@
 						qcurteman@gmail.com<br/>
 					</p>
 					<p><t>Address</t><br/>
-						3725 Libby Lane<br/>
-						Postal 95993<br/>
+						<!--3725 Libby Lane<br/>-->
+						<!--Postal 95993<br/>-->
 						Yuba City, California.<br/>
 					</p>
 					<p><t>Phone</t><br/>
@@ -30,4 +30,9 @@
 				</div>
 			</div><!--/.row -->
 		</div><!--/.container -->
-	</div><!--/ #footer -->
+    </div><!--/ #footer -->
+    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="{{ asset('/js/bootstrap.js') }}"></script>

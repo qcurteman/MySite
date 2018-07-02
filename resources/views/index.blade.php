@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="My resume website.">
+    <meta name="author" content="Quentin Curteman">
     <link rel="shortcut icon" href="{{ asset('ico/favicon.png') }}">
 
     <title>Quentin Curteman</title>
@@ -56,18 +56,61 @@
 					<h5>ABOUT</h5>
 				</div>
 				<div class="col-lg-6">
-					<p>I am currently a dedicated college student attending William Jessup University. I am working on completing my Bachelors degree in Computer Science and my minor in Mathematics. I aspire to invest in the success of a company as a software engineer, designing programs that will help others. My foundational characteristics such as teamwork, focus, and time management are applied to every project, as I approach each task carefully and seriously to produce quality work.</p>
+					<p>I am currently a dedicated college student attending William Jessup University. I am working on completing my Bachelors degree in Computer Science and my minor in Mathematics. I aspire to invest in the success of a company as a software engineer, designing programs that will help others.</p>
 				</div>
 				<div class="col-lg-3">
-					<p><a href="{{ asset('Resume.pdf') }}"><i class="icon-file"></i></a> <sm>VIEW RESUME</sm></p>
+					<p><a href="{{ asset('Resume.pdf') }}"><i class="icon-file"></i><sm>VIEW RESUME</sm></a></p>
 				</div>
 				
 			</div><!--/.row -->
-		</div><!--/.container -->
+        </div><!--/.container -->
 	</div><!--/ #intro -->
 
 
-	<section id="resume" name="resume"></section>
+    <!--PORTFOLIO DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>PORTFOLIO</h5>
+				</div>
+				<div class="col-lg-6">
+                    <p><a href="/google-aiy">
+					<img class="img-responsive" src="{{ asset('img/port01.jpg') }}" alt=""></a></p>
+				</div>
+				<div class="col-lg-3">
+					<p>GOOGLE VISION AIY</p>
+				<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/>
+					<sm><i class="icon-tag"></i> machine-learning</sm></more> 
+				</p>
+				</div>
+	
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><img class="img-responsive" src="{{ asset('img/port02.jpg') }}" alt=""></p>
+				</div>
+				<div class="col-lg-3">
+						<p>SANKEY</p>
+					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/>
+						<sm><i class="icon-tag"></i> front-end</sm></more> 
+					</p>
+				</div>
+				
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><img class="img-responsive" src="{{ asset('img/port03.jpg') }}" alt=""></p>
+				</div>
+				<div class="col-lg-3">
+						<p>WE GROW</p>
+					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/>
+						<sm><i class="icon-tag"></i> web design</sm></more> 
+					</p>
+				</div>
+		
+		</div><!--/.row -->
+		<br>
+        <br>
+        <hr>
+	</div><!--/.container -->
+
+
 	<!--EDUCATION DESCRIPTION -->
 	<div class="container desc">
 		<div class="row">
@@ -76,25 +119,23 @@
 					<h5>EDUCATION</h5>
 				</div>
 				<div class="col-lg-6">
-					<p><t>Master of Web Design</t><br/>
-						St. Patrick University <br/>
-						<i>3 Years Course</i>
+                    <p><t>Batchelors of Computer Science | Minor in Mathematics</t><br/>
+						William Jessup University <br/>
 					</p>
 				</div>
 				<div class="col-lg-3">
-					<p><sm>GRADUATING IN MAY 2014</sm><br/>
+					<p><sm>GRADUATING IN DECEMBER 2018</sm><br/>
 					<imp><sm>IN PROGRESS</sm></imp>
 					</p>
 				</div>
 	
 				<div class="col-lg-6 col-lg-offset-3">
-					<p><t>Degree of Web Developer</t><br/>
-						Hastings University <br/>
-						<i>2 Years Course</i>
+					<p><t>Associate of Computer Science | Associate of Mathematics</t><br/>
+						Yuba College <br/>
 					</p>
 				</div>
 				<div class="col-lg-3">
-					<p><sm>JUNE 2012</sm></p>
+					<p><sm>DECEMBER 2013</sm></p>
 				</div>
 	
 		</div><!--/.row -->
@@ -131,12 +172,12 @@
 				</div>
 		</div><!--/.row -->
 		<br>
-		<hr>
 	</div><!--/.container -->
 
 
 	<!--AWARDS DESCRIPTION -->
-	<div class="container desc">
+    <!--
+    <div class="container desc">
 		<div class="row">
 				<div class="col-lg-2 col-lg-offset-1">
 					<h5>AWARDS</h5>
@@ -161,12 +202,12 @@
 				</div>
 		
 		</div><!--/.row -->
-		<br>
+        <!--<br>
 	</div><!--/.container -->
 	
 	
 	<!--SKILLS DESCRIPTION -->
-	<div id="skillswrap">
+	<!--<div id="skillswrap">
 		<div class="container">
 			<div class="row">
 					<div class="col-lg-2 col-lg-offset-1">
@@ -283,59 +324,16 @@
 					</div>
 
 			</div><!--/.row -->
-			<br>
+		<!--	<br>
 		</div><!--/.container -->
-	</div><!--/ #skillswrap -->
+   <!-- </div><!--/ #skillswrap -->
 
 
 
-	<section id="work" name="work"></section>
-	<!--PORTFOLIO DESCRIPTION -->
-	<div class="container desc">
-		<div class="row">
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>PORTFOLIO</h5>
-				</div>
-				<div class="col-lg-6">
-					<p><img class="img-responsive" src="{{ asset('img/port01.jpg') }}" alt=""></p>
-				</div>
-				<div class="col-lg-3">
-					<p>CANALS OF ENGLAND</p>
-				<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/>
-					<sm><i class="icon-tag"></i> design</sm></more> 
-				</p>
-				</div>
+
+
 	
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><img class="img-responsive" src="{{ asset('img/port02.jpg') }}" alt=""></p>
-				</div>
-				<div class="col-lg-3">
-						<p>SANKEY</p>
-					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/>
-						<sm><i class="icon-tag"></i> front-end</sm></more> 
-					</p>
-				</div>
-				
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><img class="img-responsive" src="{{ asset('img/port03.jpg') }}" alt=""></p>
-				</div>
-				<div class="col-lg-3">
-						<p>WE GROW</p>
-					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/>
-						<sm><i class="icon-tag"></i> web design</sm></more> 
-					</p>
-				</div>
-		
-		</div><!--/.row -->
-		<br>
-		<br>
-	</div><!--/.container -->
 
     @include('footer')
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="{{ asset('/js/bootstrap.js') }}"></script>
   </body>
 </html>
